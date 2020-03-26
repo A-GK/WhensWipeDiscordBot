@@ -1,5 +1,5 @@
 # WhensWipeDiscordBot
-Respond to common question of "When's wipe?" question in Rust Discords.
+Respond to common question of "When's wipe?" in Rust Discords.
 
 # Why?
 ![2599 people asking when's wipe](https://i.imgur.com/F05YoIJ.png)
