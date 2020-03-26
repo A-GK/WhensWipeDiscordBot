@@ -21,4 +21,4 @@ Respond to common question of "When's wipe?" question in Rust Discords.
 * `reply_message` - What bot should reply with when someone asking when's wipe. Use <#ChannelID> to mention a channel.
 
 
-Made with :heartpulse: for Rusticated.com
+Made with :heartpulse: for [Rusticated.com](http://rusticated.com)
