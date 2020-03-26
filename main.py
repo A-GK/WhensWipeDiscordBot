@@ -44,13 +44,16 @@ class WhensWipeWatcher(discord.Client):
     async def on_message(self, ctx):
         if ctx.author.bot:
             return
-        message = ctx.content.lower()
-        if len(message) >= max_message_length:
-            return
-        message = remove_junk(message)
-        
-        if is_asking_whens_wipe(message):
-            await ctx.channel.send(reply_message)
+        try:  # In case a message with some unknown characters is passed in
+            message = ctx.content.lower()
+            if len(message) >= max_message_length:
+                return
+            message = remove_junk(message)
+            
+            if is_asking_whens_wipe(message):
+                await ctx.channel.send(reply_message)
+        except Exception:
+            pass
 
 
 
