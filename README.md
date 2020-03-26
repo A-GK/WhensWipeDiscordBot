@@ -1,6 +1,9 @@
 # WhensWipeDiscordBot
 Respond to common question of "When's wipe?" question in Rust Discords.
 
+# Why?
+![2599 people asking when's wipe](https://i.imgur.com/F05YoIJ.png)
+
 # Installation
 1. Install [Python 3.7 or newer](https://www.python.org/downloads/)
 1. Install requirements by running `pip3 install -r requirements.txt`
